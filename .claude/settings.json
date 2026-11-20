@@ -1,0 +1,14 @@
+﻿{
+  "permissions": {
+    "deny": [
+      "Read(**/*app.config)",
+      "Read(**/*App.config)",
+      "Read(**/*local.settings.json)",
+      "Read(**/*appsettings.json)",
+      "Bash(cat *app.config*)",
+      "Bash(cat *App.config*)",
+      "Bash(cat *local.settings.json*)",
+      "Bash(cat *appsettings.json*)"
+    ]
+  }
+}
